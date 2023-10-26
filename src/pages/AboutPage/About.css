@@ -1,0 +1,52 @@
+.about{
+    text-align: center;
+    display: flex;
+    background-color: #e0b60f2f;
+    height: 340px;
+}
+.about img{
+    margin-right: 150px;
+    margin-left: 260px;
+    margin-top: 80px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.about h2{
+    margin-top: 22px;
+    margin-bottom: 20px;
+}
+.about p{
+    margin-top: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    color: #000000ed;
+}
+
+/* Media query for about page */
+@media(width<768px){
+    .about{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 680px;
+    }
+    .about img{
+        margin-top: 5px;
+        border-radius: 5px;
+        height: 200px;
+    }
+    .about h2{
+        margin-top: 10px;
+        margin-left: 90px;
+    }
+    .about p{
+        margin-top: 3px;
+        font-size: 16px;
+        text-align: justify;
+        margin-left: 150px;
+        margin-right: 40px;
+    }
+}

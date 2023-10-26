@@ -1,0 +1,21 @@
+.education-container{
+    padding-bottom: 40px;
+}
+.education-section{
+    margin-top: 50px;
+    background-color: #1387812a;
+}
+.education-section h2{
+    padding-top: 20px;
+    margin-bottom: 40px;
+    padding-top: 55px;
+    color:#138781;
+}
+.vertical-timeline-element-title{
+    font-size: 23px;
+    color:#138781;
+}
+.vertical-timeline-element-subtitle{
+    font-size: 20px;
+    color: #808080e2;
+}

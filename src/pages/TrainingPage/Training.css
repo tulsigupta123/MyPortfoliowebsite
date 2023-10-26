@@ -1,0 +1,19 @@
+
+.training-section{
+    margin-top: 50px;
+    background-color: #1387812a;
+    padding-top: 20px;
+}
+.training-container h2{
+    margin-top: 20px;
+    color: #138781;
+    margin-top: 15px;
+}
+.vertical-timeline-element-title{
+    font-size: 23px;
+    color:#138781;
+}
+.vertical-timeline-element-subtitle{
+    font-size: 20px;
+    color: #808080e2;
+}

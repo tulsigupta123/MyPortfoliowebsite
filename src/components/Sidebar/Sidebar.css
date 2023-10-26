@@ -1,0 +1,32 @@
+.sidebar-section{
+    display: flex;
+    height: 230px;
+    background: #1e1e2cc3;
+  
+}
+.sidebar-container{
+    background: #1e1e2c;
+    width: 70px;
+    height: 100vh;
+    /* background-color: yellow; */
+}
+.sidebar-toggle{
+    width: 220px;
+    height: 100vh;
+}
+.sidebar-toggle-icons{
+    color: #f0f8ff;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    cursor: pointer;
+    margin-top: 10px;
+}
+/* Media query for sidemenu */
+@media(width<=780px){
+    .sidebar-section{
+        display: flex;
+        height: 230px;
+        width:420px;  
+    }
+}

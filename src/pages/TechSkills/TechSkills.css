@@ -1,0 +1,60 @@
+.techSkills{
+    margin-top: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.techSkills h2{
+    color: #138781;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.skillName{
+    margin-top: 24px;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+}
+.row3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+.ts{
+    border: 1px solid #808080a0;
+    padding: 6px 7px;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-left: 12px;
+    font-size: 19px;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px #8080806b;
+}
+.ts:hover{
+    background-color: #138781d9;
+    color: #ffffff;
+    padding:8px 10px;
+    transition: ease 0.5s;
+}
+
+/* Media Query for skills */
+@media(width<768px){
+    .ts{
+        padding: 2px 4px;
+        border-radius: 6px;
+        margin-top: 12px;
+        margin-left: 3px;
+        margin-right: 3px;
+        font-size: 17px;
+    }
+    .ts:hover{
+        padding:4px 7px;
+        transition: ease 0.5s;
+    }
+}
