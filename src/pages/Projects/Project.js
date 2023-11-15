@@ -27,7 +27,7 @@ const Project = () => {
             <h5>BlogWebsite</h5>
           </div>
           <div className="viewMore">
-           <a href="https://github.com/tulsigupta123/myNewPortfolio/tree/main/Frontend" target="_blank" rel="noreferrer"><button>View More</button></a> 
+           <a href="https://github.com/tulsigupta123/BlogWebsite" target="_blank" rel="noreferrer"><button>View More</button></a> 
           </div>
         </div>
         <div className="project-card">
